@@ -89,8 +89,7 @@ h3 a:hover {
 iframe {
   height: 560px;
   margin-left: 40px !important;
-  font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif !important;
 }
-a#foxyform_embed_link_47310 {
+a#foxyform_embed_link_47310, a#foxyform_embed_link_47353 {
   display: none !important;
 }
