@@ -1,0 +1,92 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-image: url(../img/back_pattern.png);
+  font-family: 'Nobile', 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
+}
+@font-face {
+    font-family: 'TypoSlabserifLightRegular';
+    src: url('../font/TypoSlabserif-Light-webfont.eot');
+    src: url('../font/TypoSlabserif-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/TypoSlabserif-Light-webfont.woff') format('woff'),
+         url('../font/TypoSlabserif-Light-webfont.ttf') format('truetype'),
+         url('../font/TypoSlabserif-Light-webfont.svg#TypoSlabserifLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'TypoSlabserifLightRegular', Georgia, Times, serif;
+}
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 900px;
+  background-color:rgba(255,255,255,0.3);
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+  padding: 60px 15px;
+  text-align: center;
+  background-color: #52D8FF;
+  color: #EEE;
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  padding: 60px 0;
+  background-color: #FFF;
+}
+.marketing p + h2 {
+  margin-top: 28px;
+}
+/* Logo specific styles */
+.masthead {
+  background-color: #121B25;
+  padding: 5px 10px 5px 24px;
+}
+.masthead ul.nav {
+  margin-top: 14px;
+}
+.logopart1 {
+  color: #52D8FF;
+}
+.logopart2 {
+  color: #FFF;
+}
+.soclose {
+  letter-spacing: -6px;
+  font-weight: bold;
+}
+h3 {
+  font-weight: normal;
+  text-shadow: 2px 2px 4px #000;
+}
+/* Navigation styles */
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+  background-color: #52D8FF;
+}
+/* Footer styles */
+.footer {
+  color: #EEE;
+  padding: 20px 0 12px;
+  text-align: center;
+}
+/* Form code */
+iframe {
+  height: 560px;
+  margin-left: 40px !important;
+}
+a#foxyform_embed_link_47310 {
+  display: none !important;
+}
