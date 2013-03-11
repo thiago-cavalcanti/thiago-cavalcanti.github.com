@@ -72,6 +72,9 @@ h3 {
   font-weight: normal;
   text-shadow: 2px 2px 4px #000;
 }
+h3 a:hover {
+  text-decoration: none;
+}
 /* Navigation styles */
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
   background-color: #52D8FF;
