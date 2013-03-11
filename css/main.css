@@ -89,8 +89,6 @@ h3 a:hover {
 iframe {
   height: 560px;
   margin-left: 40px !important;
-}
-iframe html body {
   font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif !important;
 }
 a#foxyform_embed_link_47310 {
