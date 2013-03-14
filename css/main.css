@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 21px;
   padding: 14px 24px;
 }
-
 /* Supporting marketing content */
 .marketing {
   padding: 60px 0;
@@ -92,6 +91,30 @@ iframe {
 }
 a#foxyform_embed_link_47353 {
   display: none !important;
+}
+/* Fit when mobile */
+@media (max-width: 480px) {
+  h3, h4, h5, h6, .jumbotron .btn, p.lead, a, p {
+    font-size: 100%;
+  }
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16.5px;
+  }
+  p, h2 {
+    padding: 0 10px;
+  }
+  .marketing {
+    padding: 15px 0;
+  }
+  .jumbotron {
+    padding: 30px 15px;
+  }
 }
 /* IE 10 Fix */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
