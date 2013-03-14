@@ -93,3 +93,9 @@ iframe {
 a#foxyform_embed_link_47353 {
   display: none !important;
 }
+/* IE 10 Fix */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
+  }
+}
